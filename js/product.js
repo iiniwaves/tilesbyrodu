@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const productId = params.get("product");
 
     // Temporary fallback while we're building
-    const id = productId || "matte-grey-floor-tile";
+    const id = productId || "bettula-floor-tile";
 
     const product = await getProduct(id);
 
@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function populateProduct(product) {
 
+    renderMeta(product);
     renderBreadcrumb(product);
     renderProductInfo(product);
     renderGallery(product);
@@ -28,6 +29,21 @@ async function populateProduct(product) {
     renderWhatsappButton(product);
 
     await renderRelatedProducts(product);
+
+}
+
+function renderMeta(product) {
+
+    document.title = `${product.name} — Tiles by Rodu`;
+
+    const description = document.querySelector('meta[name="description"]');
+
+    if (description) {
+        description.setAttribute(
+            "content",
+            `${product.name} from Tiles by Rodu — ${product.shortDescription} Chat with us on WhatsApp to enquire or order.`
+        );
+    }
 
 }
 

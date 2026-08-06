@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": "glossy-cream-wall-tile",
+      "id": "calacatta-wall-tile",
       "featured": true,
       "category": "wall-tiles",
       "name": "Calacatta Wall Tile",
@@ -78,81 +78,81 @@
       ]
     },
     {
-      "id": "textured-white-wall-tile",
+      "id": "carnico-wall-tile",
       "featured": false,
       "category": "wall-tiles",
-      "name": "Textured White Wall Tile",
-      "shortDescription": "Subtle surface texture that adds depth without overwhelming the room.",
-      "description": "A softly textured white wall tile that adds visual depth and tactile interest without competing with the rest of the room. Works especially well as a feature wall behind a bed, sofa, or dining table.",
+      "name": "Carnico Tile",
+      "shortDescription": "Bold marble-inspired porcelain tiles designed to create luxurious, high-end interior spaces.",
+      "description": "Carnico Tiles by Ceramco offer the dramatic beauty of natural marble through bold veining, rich detailing, and premium porcelain construction. Designed to create luxurious interiors, Carnico is ideal for statement floors, feature walls, bathrooms, and commercial spaces. Its durable, low-maintenance surface combines timeless elegance with long-lasting performance, making it a sophisticated choice for both contemporary and classic designs.",
       "images": [
-        "assets/images/products/wall-tile-02.jpg",
-        "assets/images/products/wall-tile-01.jpg"
+        "assets/images/products/carnico.jpg",
+        "assets/images/products/carnico.jpg"
       ],
-      "chips": ["25×40cm", "Textured Finish", "Ceramic", "Feature Wall"],
+      "chips": ["40×40cm", "Textured Finish", "Porcelain", "Feature Wall"],
       "features": [
-        "Subtle relief texture catches light for added depth",
-        "Bright white tone keeps rooms feeling open",
-        "Pairs well with wood, brass, and matte black fixtures",
-        "Suitable for accent walls or full coverage"
+        "Dramatic marble veining",
+        "Premium porcelain material",
+        "Scratch and wear resistant",
+        "Suitable for feature walls and flooring"
       ],
       "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Textured Matte" },
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Satin, Ultra Polish" },
         { "label": "Application", "value": "Feature walls, bedrooms, living rooms" },
-        { "label": "Available Colours", "value": "White, Ivory" }
+        { "label": "Available Colours", "value": "White, Charcoal Veining" }
       ]
     },
     {
-      "id": "classic-subway-kitchen-tile",
+      "id": "cristallo-beige-tile",
       "featured": false,
       "category": "kitchen-tiles",
-      "name": "Classic Subway Kitchen Tile",
-      "shortDescription": "Easy-clean backsplash tile that suits both modern and traditional kitchens.",
-      "description": "A timeless subway-style tile built for kitchen backsplashes. Its simple rectangular shape and easy-clean glazed surface make it a dependable choice whether your kitchen leans modern or traditional.",
+      "name": "Cristallo Beige Tile",
+      "shortDescription": "Warm beige marble-look porcelain tiles that bring timeless elegance and everyday durability.",
+      "description": "Cristallo Beige Tiles by Ceramco feature warm beige tones inspired by natural marble, creating a welcoming and sophisticated atmosphere in any room. Manufactured from premium porcelain, these tiles provide excellent durability, easy maintenance, and lasting beauty. Their versatile design complements both modern and traditional interiors, making them suitable for living rooms, kitchens, bathrooms, and commercial environments.",
       "images": [
-        "assets/images/products/kitchen-tile-01.jpg",
-        "assets/images/products/kitchen-tile-02.jpg"
+        "assets/images/products/cristallo.jpg",
+        "assets/images/products/cristallo.jpg"
       ],
       "chips": ["10×30cm", "Glossy Finish", "Ceramic", "Backsplash"],
       "features": [
-        "Classic proportions that suit most kitchen styles",
-        "Glazed surface wipes clean of oil and splashes easily",
-        "Works in running-bond or stacked layouts",
-        "Consistent sizing for clean grout lines"
+        "Warm marble-effect finish",
+        "Easy to clean surface",
+        "Moisture-resistant porcelain",
+        "Complements modern and classic interiors"
       ],
       "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Glossy" },
-        { "label": "Application", "value": "Kitchen backsplashes, splashbacks" },
-        { "label": "Available Colours", "value": "White, Cream, Pale Blue" }
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matte, Satin, Ultra Polish" },
+        { "label": "Application", "value": "Kitchens, walls, living rooms" },
+        { "label": "Available Colours", "value": "Sand, Cream, Beige" }
       ]
     },
     {
-      "id": "patterned-kitchen-floor-tile",
+      "id": "olmo-tile",
       "featured": false,
       "category": "kitchen-tiles",
-      "name": "Patterned Kitchen Floor Tile",
-      "shortDescription": "A decorative patterned finish for kitchen floors that want to stand out.",
-      "description": "A decorative patterned floor tile designed for kitchens that want a bit of personality underfoot. Durable enough for daily kitchen traffic while adding a distinctive, design-led look.",
+      "name": "Olmo Tile",
+      "shortDescription": "Natural wood-effect porcelain tiles with authentic textures and long-lasting durability.",
+      "description": "Olmo Tiles by Ceramco recreate the natural beauty of timber with authentic wood grain patterns and rich earthy tones. Crafted from durable porcelain, they deliver the warmth and elegance of hardwood while offering superior resistance to moisture, scratches, and daily wear. Perfect for residential and commercial spaces, Olmo provides a timeless wood-inspired finish with minimal maintenance and exceptional long-term performance.",
       "images": [
-        "assets/images/products/kitchen-tile-02.jpg",
-        "assets/images/products/kitchen-tile-01.jpg"
+        "assets/images/products/olmo.jpg",
+        "assets/images/products/olmo.jpg"
       ],
-      "chips": ["20×20cm", "Matte Finish", "Ceramic", "Patterned"],
+      "chips": ["60×60cm", "Matte Finish", "Porcelain", "Patterned"],
       "features": [
-        "Bold repeating pattern adds character to kitchen floors",
-        "Durable matte surface built for daily foot traffic",
-        "Works well as a full floor or a defined kitchen zone",
-        "Colour-consistent across full-order batches"
+        "Authentic timber appearance",
+        "Resistant to scratches and moisture",
+        "Durable porcelain body",
+        "Ideal for living rooms and bedrooms"
       ],
       "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Matte" },
-        { "label": "Application", "value": "Kitchen floors, utility rooms" },
-        { "label": "Available Colours", "value": "Blue/White, Terracotta/White" }
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matte, Satin" },
+        { "label": "Application", "value": "All floor types" },
+        { "label": "Available Colours", "value": "Rustic wood, Honey Oak, Natural Oak, Brown" }
       ]
     },
     {
