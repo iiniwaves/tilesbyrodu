@@ -156,107 +156,115 @@
       ]
     },
     {
-      "id": "textured-blue-bathroom-tile",
-      "featured": true,
-      "category": "bathroom-tiles",
-      "name": "Textured Blue Bathroom Tile",
-      "shortDescription": "Slip-conscious texture with a calming tone, built for wet areas.",
-      "description": "A slip-conscious textured tile in a calming blue tone, purpose-built for wet areas like showers and bathroom floors. The texture adds grip underfoot without sacrificing a refined look.",
-      "images": [
-        "assets/images/products/bathroom-tile-01.jpg",
-        "assets/images/products/bathroom-tile-02.jpg"
-      ],
-      "chips": ["20×20cm", "Textured Finish", "Porcelain", "Wet Areas"],
-      "features": [
-        "Textured surface improves grip in wet conditions",
-        "Calming blue tone suited to bathrooms and wet rooms",
-        "Porcelain body resists moisture absorption",
-        "Consistent finish across shower floors and walls"
-      ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
-      "specifications": [
-        { "label": "Material", "value": "Porcelain" },
-        { "label": "Finish", "value": "Textured" },
-        { "label": "Application", "value": "Shower floors, bathroom floors and walls" },
-        { "label": "Available Colours", "value": "Blue, Teal, Grey" }
-      ]
-    },
-    {
-      "id": "white-mosaic-bathroom-tile",
+      "id": "travertino",
       "featured": false,
       "category": "bathroom-tiles",
-      "name": "White Mosaic Bathroom Tile",
-      "shortDescription": "Small-format mosaic tile ideal for shower floors and feature walls.",
-      "description": "A small-format white mosaic tile, ideal for shower floors where extra grout lines improve grip, and equally at home as a clean, bright feature wall in any bathroom.",
+      "name": "Travertino",
+      "shortDescription": "Travertine-inspired porcelain tiles with earthy tones and a refined natural stone appearance.",
+      "description": "Travertino Tiles by Ceramco are inspired by the timeless appeal of natural travertine stone, featuring subtle textures and elegant earthy tones that suit a wide range of interior styles. Made from high-quality porcelain, these tiles provide exceptional durability, easy maintenance, and reliable performance for both floors and walls. Their refined finish makes them ideal for residential and commercial spaces seeking a classic yet contemporary aesthetic.",
       "images": [
-        "assets/images/products/bathroom-tile-02.jpg",
-        "assets/images/products/bathroom-tile-01.jpg"
+        "assets/images/products/travertino.jpg",
+        "assets/images/products/travertino.jpg"
       ],
-      "chips": ["30×30cm Sheet", "Matte Finish", "Porcelain", "Wet Areas"],
+      "chips": ["60×120cm", "Satin Finish", "Porcelain", "Indoor & Outdoor"],
       "features": [
-        "Small mosaic format increases slip resistance underfoot",
-        "Bright white tone keeps small bathrooms feeling open",
-        "Flexible mesh-backed sheets fit curved shower floors",
-        "Suitable for both walls and floors"
+        "Natural travertine look",
+        "Suitable for indoor and outdoor use",
+        "Durable porcelain construction",
+        "Low-maintenance finish"
       ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
+      "sizes": ["60×120cm", "30×120cm", "60×60cm", "30×60cm", "40×40cm"],
+      "colours": ["Travertine Beige", "Ivory", "Cream", "Light Stone"],
+      "finishes": ["Matte", "Satin"],
       "specifications": [
         { "label": "Material", "value": "Porcelain" },
-        { "label": "Finish", "value": "Matte" },
-        { "label": "Application", "value": "Shower floors, feature walls" },
-        { "label": "Available Colours", "value": "White, Off-White" }
+        { "label": "Finish", "value": "Matte, Satin" },
+        { "label": "Application", "value": "Floors and walls, residential and commercial spaces" },
+        { "label": "Available Colours", "value": "Travertine Beige, Ivory, Cream, Light Stone" }
       ]
     },
     {
-      "id": "weatherproof-patio-tile",
+      "id": "querica-gr",
       "featured": false,
-      "category": "outdoor-tiles",
-      "name": "Weatherproof Patio Tile",
-      "shortDescription": "Slip-resistant and built to withstand sun and rain, for patios and balconies.",
-      "description": "A slip-resistant outdoor tile engineered to withstand direct sun, rain, and temperature swings without fading or cracking. A dependable choice for patios, balconies, and outdoor entertaining areas.",
+      "category": "bathroom-tiles",
+      "name": "Querica-GR",
+      "shortDescription": "Modern grey porcelain tiles with a minimalist stone-inspired finish and exceptional durability.",
+      "description": "Querica-GR Tiles by Ceramco feature contemporary grey tones with subtle stone-inspired textures that create a clean, minimalist appearance. Manufactured from premium porcelain, they offer excellent durability, stain resistance, and easy maintenance, making them suitable for high-traffic residential and commercial spaces. Their versatile design pairs effortlessly with modern interiors while delivering lasting performance and timeless appeal.",
       "images": [
-        "assets/images/products/outdoor-tile-01.jpg",
-        "assets/images/products/outdoor-tile-02.jpg"
+        "assets/images/products/querica-gr.jpg",
+        "assets/images/products/querica-gr.jpg"
       ],
-      "chips": ["40×40cm", "Anti-Slip", "Porcelain", "Outdoor Use"],
+      "chips": ["60×120cm", "Satin Finish", "Porcelain", "High-Traffic"],
       "features": [
-        "Anti-slip surface rated for wet outdoor conditions",
-        "UV-stable colour resists fading in direct sun",
-        "Freeze/heat resistant for year-round outdoor use",
-        "Low water absorption prevents cracking over time"
+        "Contemporary grey colour",
+        "Stone-inspired texture",
+        "Highly durable porcelain",
+        "Ideal for modern interiors"
       ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
+      "sizes": ["60×120cm", "30×120cm", "60×60cm", "30×60cm", "40×40cm"],
+      "colours": ["Grey", "Dark Grey", "Ash Grey", "Concrete Grey"],
+      "finishes": ["Matte", "Satin"],
       "specifications": [
         { "label": "Material", "value": "Porcelain" },
-        { "label": "Finish", "value": "Anti-Slip Textured" },
-        { "label": "Application", "value": "Patios, balconies, outdoor entertaining areas" },
-        { "label": "Available Colours", "value": "Grey, Sand, Charcoal" }
+        { "label": "Finish", "value": "Matte, Satin" },
+        { "label": "Application", "value": "High-traffic residential and commercial spaces" },
+        { "label": "Available Colours", "value": "Grey, Dark Grey, Ash Grey, Concrete Grey" }
       ]
     },
     {
-      "id": "stone-look-outdoor-tile",
+      "id": "onice-glaciale",
       "featured": false,
       "category": "outdoor-tiles",
-      "name": "Stone-Look Outdoor Tile",
-      "shortDescription": "A natural stone finish without the maintenance, for compounds and gardens.",
-      "description": "A porcelain tile that mimics the look of natural stone without the sealing and staining maintenance real stone requires. A durable option for compounds, garden paths, and outdoor seating areas.",
+      "name": "Onice Glaciale",
+      "shortDescription": "Elegant onyx-look porcelain tiles with soft veining and a bright, luxurious finish.",
+      "description": "Onice Glaciale Tiles by Ceramco showcase the luxurious beauty of natural onyx with soft veining, luminous tones, and a refined porcelain finish. Designed to brighten interiors while adding a sense of elegance, these tiles are ideal for living rooms, bathrooms, feature walls, and commercial spaces. Their premium porcelain construction offers outstanding durability, moisture resistance, and easy maintenance for long-lasting performance.",
       "images": [
-        "assets/images/products/outdoor-tile-02.jpg",
-        "assets/images/products/outdoor-tile-01.jpg"
+        "assets/images/products/onice-glaciale.jpg",
+        "assets/images/products/onice-glaciale.jpg"
       ],
-      "chips": ["60×60cm", "Stone-Look", "Porcelain", "Outdoor Use"],
+      "chips": ["60×120cm", "Ultra Polish", "Porcelain", "Luxury Interiors"],
       "features": [
-        "Natural stone appearance with none of the sealing upkeep",
-        "Dense porcelain body resists staining and weathering",
-        "Consistent veining across full-order batches",
-        "Suitable for compounds, paths, and outdoor seating areas"
+        "Premium onyx-inspired design",
+        "Bright reflective finish",
+        "Scratch and moisture resistant",
+        "Ideal for luxury interiors"
       ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
+      "sizes": ["60×120cm", "30×120cm", "60×60cm", "30×60cm", "40×40cm"],
+      "colours": ["Glacier White", "Ivory White", "Soft Grey", "Pearl"],
+      "finishes": ["Ultra Polish", "Satin"],
       "specifications": [
         { "label": "Material", "value": "Porcelain" },
-        { "label": "Finish", "value": "Textured Stone-Look" },
-        { "label": "Application", "value": "Compounds, garden paths, outdoor seating areas" },
-        { "label": "Available Colours", "value": "Grey Stone, Sand Stone" }
+        { "label": "Finish", "value": "Ultra Polish, Satin" },
+        { "label": "Application", "value": "Living rooms, bathrooms, feature walls, commercial spaces" },
+        { "label": "Available Colours", "value": "Glacier White, Ivory White, Soft Grey, Pearl" }
+      ]
+    },
+    {
+      "id": "botticino-classico",
+      "featured": false,
+      "category": "outdoor-tiles",
+      "name": "Botticino Classico",
+      "shortDescription": "Classic marble-look porcelain tiles with warm beige tones and timeless elegance.",
+      "description": "Botticino Classico Tiles by Ceramco are inspired by the timeless elegance of Botticino marble, featuring warm beige tones and delicate natural veining. Crafted from premium porcelain, these tiles offer the sophisticated appearance of natural stone while providing exceptional durability and easy maintenance. Perfect for both residential and commercial spaces, Botticino Classico creates warm, welcoming interiors with lasting beauty.",
+      "images": [
+        "assets/images/products/botticino-classico.jpg",
+        "assets/images/products/botticino-classico.jpg"
+      ],
+      "chips": ["60×120cm", "Ultra Polish", "Porcelain", "Warm Tones"],
+      "features": [
+        "Elegant marble-inspired finish",
+        "Warm neutral colour palette",
+        "Durable porcelain construction",
+        "Suitable for floors and walls"
+      ],
+      "sizes": ["60×120cm", "30×120cm", "60×60cm", "30×60cm", "40×40cm"],
+      "colours": ["Classic Beige", "Ivory", "Cream", "Warm Stone"],
+      "finishes": ["Matte", "Satin", "Ultra Polish"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matte, Satin, Ultra Polish" },
+        { "label": "Application", "value": "Floors and walls, residential and commercial spaces" },
+        { "label": "Available Colours", "value": "Classic Beige, Ivory, Cream, Warm Stone" }
       ]
     },
     {
