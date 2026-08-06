@@ -547,6 +547,13 @@ p { margin: 0 0 16px; color: var(--charcoal-soft); }
   font-weight: 600;
 }
 
+.size-chip-row { display: flex; gap: 6px; flex-wrap: wrap; }
+.spec-table .size-chip {
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
 .feature-list { display: grid; gap: 10px; margin: 20px 0 28px; }
 .feature-list li { display: flex; gap: 10px; align-items: flex-start; font-size: 0.92rem; color: var(--charcoal-soft); }
 .feature-list li::before { content: "—"; color: var(--lemon-deep); font-weight: 700; }

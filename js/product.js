@@ -159,6 +159,12 @@ function renderSpecifications(product) {
 
     specsTable.innerHTML = "";
 
+    const sizesRow = renderSizesRow(product);
+
+    if (sizesRow) {
+        specsTable.appendChild(sizesRow);
+    }
+
     product.specifications.forEach(spec => {
 
         const row = document.createElement("tr");
@@ -171,6 +177,41 @@ function renderSpecifications(product) {
         specsTable.appendChild(row);
 
     });
+
+}
+
+function renderSizesRow(product) {
+
+    if (!Array.isArray(product.sizes) || !product.sizes.length) {
+        return null;
+    }
+
+    const row = document.createElement("tr");
+
+    const labelCell = document.createElement("td");
+    labelCell.textContent = "Available Sizes";
+
+    const valueCell = document.createElement("td");
+    const chipRow = document.createElement("div");
+    chipRow.className = "size-chip-row";
+
+    product.sizes.forEach(size => {
+
+        const chip = document.createElement("span");
+
+        chip.className = "chip size-chip";
+        chip.textContent = size;
+
+        chipRow.appendChild(chip);
+
+    });
+
+    valueCell.appendChild(chipRow);
+
+    row.appendChild(labelCell);
+    row.appendChild(valueCell);
+
+    return row;
 
 }
 
@@ -188,6 +229,20 @@ function renderWhatsappButton(product) {
 
 }
 
+// Which categories should surface each other in "Related products".
+// Only touch this when you add a brand-new category — individual
+// products never need to be wired up by hand.
+const CATEGORY_RELATIONS = {
+    "floor-tiles": ["wall-tiles", "outdoor-tiles", "paving-blocks"],
+    "wall-tiles": ["floor-tiles", "kitchen-tiles", "bathroom-tiles", "decorative-tiles"],
+    "kitchen-tiles": ["wall-tiles", "bathroom-tiles", "decorative-tiles"],
+    "bathroom-tiles": ["kitchen-tiles", "wall-tiles", "outdoor-tiles"],
+    "outdoor-tiles": ["floor-tiles", "paving-blocks", "interlocking-stones"],
+    "decorative-tiles": ["wall-tiles", "kitchen-tiles", "interlocking-stones"],
+    "paving-blocks": ["outdoor-tiles", "interlocking-stones"],
+    "interlocking-stones": ["outdoor-tiles", "paving-blocks", "decorative-tiles"]
+};
+
 async function renderRelatedProducts(product) {
 
     const container =
@@ -199,9 +254,7 @@ async function renderRelatedProducts(product) {
 
     const allProducts = await getProducts();
 
-    const related = allProducts
-        .filter(p => product.related.includes(p.id))
-        .slice(0, 3);
+    const related = getRelatedProducts(product, allProducts, CATEGORY_RELATIONS, 3);
 
     container.innerHTML = related
         .map(createProductCard)
@@ -210,6 +263,36 @@ async function renderRelatedProducts(product) {
     if (window.lucide) {
         window.lucide.createIcons();
     }
+
+}
+
+function getRelatedProducts(product, allProducts, categoryRelations, count) {
+
+    const sameCategory = allProducts.filter(p =>
+        p.id !== product.id && p.category === product.category
+    );
+
+    const relatedCategories = categoryRelations[product.category] || [];
+
+    const crossCategory = allProducts.filter(p =>
+        p.id !== product.id && relatedCategories.includes(p.category)
+    );
+
+    const seen = new Set();
+    const result = [];
+
+    for (const p of [...sameCategory, ...crossCategory]) {
+
+        if (seen.has(p.id)) continue;
+
+        seen.add(p.id);
+        result.push(p);
+
+        if (result.length === count) break;
+
+    }
+
+    return result;
 
 }
 

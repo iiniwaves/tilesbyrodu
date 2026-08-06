@@ -1,91 +1,81 @@
 {
   "products": [
     {
-      "id": "matte-grey-floor-tile",
+      "id": "bettula-floor-tile",
       "featured": true,
       "category": "floor-tiles",
-      "name": "Matte Grey Floor Tile",
-      "shortDescription": "A clean, low-sheen finish suited to modern and minimalist interiors.",
-      "description": "A clean, low-sheen ceramic tile that suits modern and minimalist interiors. Its neutral tone works equally well in living rooms, hallways and open-plan spaces, and its matte surface resists showing everyday scuffs.",
+      "name": "Bettula Floor Tile",
+      "shortDescription": "Wood-look porcelain tiles with realistic grain patterns, warm tones, and durable, low-maintenance performance for modern interiors.",
+      "description": "Betulla Tiles by Ceramco combine the timeless beauty of natural wood with the strength and durability of premium porcelain. Featuring realistic wood grain textures and warm, inviting tones, Betulla is ideal for creating elegant living rooms, bedrooms, kitchens, and commercial spaces. Available in multiple sizes and finishes, it offers the charm of hardwood flooring without the maintenance, making it a practical choice for both residential and commercial interiors. ",
       "images": [
-        "assets/images/products/floor-tile-01.jpg",
-        "assets/images/products/floor-tile-02.jpg",
-        "assets/images/categories/floor-tiles.jpg"
+        "assets/images/products/Betulla.jpg"
       ],
-      "chips": ["60×60cm", "Matte Finish", "Ceramic", "Indoor Use"],
+      "chips": ["Polished Finish", "Bettula", "Floor Tiles", "CERAMCO"],
       "features": [
-        "Durable ceramic body built for high-traffic areas",
-        "Low-sheen matte surface that resists visible scuffing",
-        "Consistent batch colouring across full orders",
-        "Straightforward to clean and maintain"
+        "Realistic wood grain finish",
+        "Scratch and stain resistant",
+        "Low-maintenance porcelain surface",
+        "Suitable for residential and commercial spaces"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "60 × 60 cm" },
-        { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Matte" },
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matte, Satin" },
         { "label": "Application", "value": "Living rooms, hallways, open-plan floors" },
-        { "label": "Available Colours", "value": "Grey, Charcoal, Warm Sand" },
-        { "label": "Available Sizes", "value": "60×60cm, 80×80cm" }
-      ],
-      "related": ["polished-beige-floor-tile", "weatherproof-patio-tile", "grey-interlocking-paving-block"]
+        { "label": "Available Colours", "value": "Light Oak, Natural Oak, Walnut Brown" }
+      ]
     },
     {
-      "id": "polished-beige-floor-tile",
+      "id": "bellalina-floor-tile",
       "featured": false,
       "category": "floor-tiles",
-      "name": "Polished Beige Floor Tile",
-      "shortDescription": "A warm, reflective floor finish that opens up living and dining spaces.",
-      "description": "A warm-toned, high-gloss floor tile that reflects light beautifully, making living and dining spaces feel brighter and more open. A popular choice for homeowners who want a floor that reads as premium from the moment you walk in.",
+      "name": "Bellalina Floor Tile",
+      "shortDescription": "Elegant stone-look porcelain tiles with soft neutral tones, perfect for timeless residential and commercial spaces.",
+      "description": "Bellalina Tiles by Ceramco bring together the elegance of natural stone with the durability of high-quality porcelain. Featuring subtle textures, soft neutral tones, and a refined finish, Bellalina creates bright, sophisticated interiors that complement both modern and traditional spaces. Ideal for floors and walls, it offers a timeless aesthetic with exceptional durability and easy maintenance for residential and commercial applications.",
       "images": [
-        "assets/images/products/floor-tile-02.jpg",
-        "assets/images/products/floor-tile-01.jpg",
-        "assets/images/categories/floor-tiles.jpg"
+        "assets/images/products/Bellalina.jpg",
+        "assets/images/products/Bellalina.jpg"
       ],
-      "chips": ["80×80cm", "Polished Finish", "Ceramic", "Indoor Use"],
+      "chips": ["60×60cm", "Polished Finish", "Porcelain", "Indoor Use"],
       "features": [
-        "High-gloss surface that reflects and brightens natural light",
-        "Large-format tile reduces visible grout lines",
-        "Consistent tone across full-room installations",
-        "Wipes clean with minimal effort"
+        "Natural stone-inspired design",
+        "Soft neutral colour palette",
+        "Durable porcelain construction",
+        "Ideal for floors and walls"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "80 × 80 cm" },
-        { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Polished" },
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matte, Satin, Ultra Polish" },
         { "label": "Application", "value": "Living rooms, dining areas, open-plan floors" },
-        { "label": "Available Colours", "value": "Beige, Cream, Light Grey" },
-        { "label": "Available Sizes", "value": "60×60cm, 80×80cm" }
-      ],
-      "related": ["matte-grey-floor-tile", "glossy-cream-wall-tile", "stone-look-outdoor-tile"]
+        { "label": "Available Colours", "value": "Ivory, Beige, Light Grey, Stone White" }
+      ]
     },
     {
       "id": "glossy-cream-wall-tile",
       "featured": true,
       "category": "wall-tiles",
-      "name": "Glossy Cream Wall Tile",
-      "shortDescription": "A warm, reflective finish that brightens kitchens and living spaces.",
-      "description": "A warm, reflective wall tile that adds brightness to kitchens and living spaces without overwhelming the room. Its glossy cream tone pairs well with both light and dark cabinetry or furniture.",
+      "name": "Calacatta Wall Tile",
+      "shortDescription": "Luxurious marble-look porcelain tiles featuring bold grey veining and a timeless white finish.",
+      "description": "Calacatta Tiles by Ceramco capture the luxurious appearance of premium Italian marble with striking grey veining set against a crisp white background. Crafted from durable porcelain, these tiles add sophistication to kitchens, bathrooms, living spaces, and feature walls while providing excellent resistance to stains, moisture, and everyday wear. Their elegant finish delivers a high-end marble look without the upkeep of natural stone.",
       "images": [
-        "assets/images/products/wall-tile-01.jpg",
-        "assets/images/products/wall-tile-02.jpg",
-        "assets/images/categories/wall-tiles.jpg"
+        "assets/images/products/calacatta.jpg",
+        "assets/images/products/calacatta.jpg"
       ],
       "chips": ["30×60cm", "Glossy Finish", "Ceramic", "Feature Wall"],
       "features": [
-        "Reflective glossy surface that brightens a room",
-        "Neutral cream tone pairs with most colour schemes",
-        "Easy-clean surface, ideal near cooking areas",
-        "Suitable for feature walls or full-wall coverage"
+        "Premium marble-inspired appearance",
+        "High stain and moisture resistance",
+        "Polished elegant finish",
+        "Perfect for kitchens and bathrooms"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "30 × 60 cm" },
-        { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Glossy" },
-        { "label": "Application", "value": "Kitchens, living rooms, feature walls" },
-        { "label": "Available Colours", "value": "Cream, White, Soft Grey" },
-        { "label": "Available Sizes", "value": "30×60cm, 25×40cm" }
-      ],
-      "related": ["textured-white-wall-tile", "classic-subway-kitchen-tile", "matte-grey-floor-tile"]
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Satin, Ultra Polish" },
+        { "label": "Application", "value": "Kitchens, Bath rooms" },
+        { "label": "Available Colours", "value": "Grey Veined White" }
+      ]
     },
     {
       "id": "textured-white-wall-tile",
@@ -96,8 +86,7 @@
       "description": "A softly textured white wall tile that adds visual depth and tactile interest without competing with the rest of the room. Works especially well as a feature wall behind a bed, sofa, or dining table.",
       "images": [
         "assets/images/products/wall-tile-02.jpg",
-        "assets/images/products/wall-tile-01.jpg",
-        "assets/images/categories/wall-tiles.jpg"
+        "assets/images/products/wall-tile-01.jpg"
       ],
       "chips": ["25×40cm", "Textured Finish", "Ceramic", "Feature Wall"],
       "features": [
@@ -106,15 +95,13 @@
         "Pairs well with wood, brass, and matte black fixtures",
         "Suitable for accent walls or full coverage"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "25 × 40 cm" },
         { "label": "Material", "value": "Ceramic" },
         { "label": "Finish", "value": "Textured Matte" },
         { "label": "Application", "value": "Feature walls, bedrooms, living rooms" },
-        { "label": "Available Colours", "value": "White, Ivory" },
-        { "label": "Available Sizes", "value": "25×40cm, 30×60cm" }
-      ],
-      "related": ["glossy-cream-wall-tile", "white-mosaic-bathroom-tile", "moroccan-pattern-decorative-tile"]
+        { "label": "Available Colours", "value": "White, Ivory" }
+      ]
     },
     {
       "id": "classic-subway-kitchen-tile",
@@ -125,8 +112,7 @@
       "description": "A timeless subway-style tile built for kitchen backsplashes. Its simple rectangular shape and easy-clean glazed surface make it a dependable choice whether your kitchen leans modern or traditional.",
       "images": [
         "assets/images/products/kitchen-tile-01.jpg",
-        "assets/images/products/kitchen-tile-02.jpg",
-        "assets/images/categories/kitchen-tiles.jpg"
+        "assets/images/products/kitchen-tile-02.jpg"
       ],
       "chips": ["10×30cm", "Glossy Finish", "Ceramic", "Backsplash"],
       "features": [
@@ -135,15 +121,13 @@
         "Works in running-bond or stacked layouts",
         "Consistent sizing for clean grout lines"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "10 × 30 cm" },
         { "label": "Material", "value": "Ceramic" },
         { "label": "Finish", "value": "Glossy" },
         { "label": "Application", "value": "Kitchen backsplashes, splashbacks" },
-        { "label": "Available Colours", "value": "White, Cream, Pale Blue" },
-        { "label": "Available Sizes", "value": "10×30cm" }
-      ],
-      "related": ["patterned-kitchen-floor-tile", "glossy-cream-wall-tile", "textured-blue-bathroom-tile"]
+        { "label": "Available Colours", "value": "White, Cream, Pale Blue" }
+      ]
     },
     {
       "id": "patterned-kitchen-floor-tile",
@@ -154,8 +138,7 @@
       "description": "A decorative patterned floor tile designed for kitchens that want a bit of personality underfoot. Durable enough for daily kitchen traffic while adding a distinctive, design-led look.",
       "images": [
         "assets/images/products/kitchen-tile-02.jpg",
-        "assets/images/products/kitchen-tile-01.jpg",
-        "assets/images/categories/kitchen-tiles.jpg"
+        "assets/images/products/kitchen-tile-01.jpg"
       ],
       "chips": ["20×20cm", "Matte Finish", "Ceramic", "Patterned"],
       "features": [
@@ -164,15 +147,13 @@
         "Works well as a full floor or a defined kitchen zone",
         "Colour-consistent across full-order batches"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "20 × 20 cm" },
         { "label": "Material", "value": "Ceramic" },
         { "label": "Finish", "value": "Matte" },
         { "label": "Application", "value": "Kitchen floors, utility rooms" },
-        { "label": "Available Colours", "value": "Blue/White, Terracotta/White" },
-        { "label": "Available Sizes", "value": "20×20cm" }
-      ],
-      "related": ["classic-subway-kitchen-tile", "moroccan-pattern-decorative-tile", "white-mosaic-bathroom-tile"]
+        { "label": "Available Colours", "value": "Blue/White, Terracotta/White" }
+      ]
     },
     {
       "id": "textured-blue-bathroom-tile",
@@ -183,8 +164,7 @@
       "description": "A slip-conscious textured tile in a calming blue tone, purpose-built for wet areas like showers and bathroom floors. The texture adds grip underfoot without sacrificing a refined look.",
       "images": [
         "assets/images/products/bathroom-tile-01.jpg",
-        "assets/images/products/bathroom-tile-02.jpg",
-        "assets/images/categories/bathroom-tiles.jpg"
+        "assets/images/products/bathroom-tile-02.jpg"
       ],
       "chips": ["20×20cm", "Textured Finish", "Porcelain", "Wet Areas"],
       "features": [
@@ -193,15 +173,13 @@
         "Porcelain body resists moisture absorption",
         "Consistent finish across shower floors and walls"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "20 × 20 cm" },
         { "label": "Material", "value": "Porcelain" },
         { "label": "Finish", "value": "Textured" },
         { "label": "Application", "value": "Shower floors, bathroom floors and walls" },
-        { "label": "Available Colours", "value": "Blue, Teal, Grey" },
-        { "label": "Available Sizes", "value": "20×20cm, 30×30cm" }
-      ],
-      "related": ["white-mosaic-bathroom-tile", "weatherproof-patio-tile", "classic-subway-kitchen-tile"]
+        { "label": "Available Colours", "value": "Blue, Teal, Grey" }
+      ]
     },
     {
       "id": "white-mosaic-bathroom-tile",
@@ -212,8 +190,7 @@
       "description": "A small-format white mosaic tile, ideal for shower floors where extra grout lines improve grip, and equally at home as a clean, bright feature wall in any bathroom.",
       "images": [
         "assets/images/products/bathroom-tile-02.jpg",
-        "assets/images/products/bathroom-tile-01.jpg",
-        "assets/images/categories/bathroom-tiles.jpg"
+        "assets/images/products/bathroom-tile-01.jpg"
       ],
       "chips": ["30×30cm Sheet", "Matte Finish", "Porcelain", "Wet Areas"],
       "features": [
@@ -222,15 +199,13 @@
         "Flexible mesh-backed sheets fit curved shower floors",
         "Suitable for both walls and floors"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "30 × 30 cm sheet (2.5×2.5cm chips)" },
         { "label": "Material", "value": "Porcelain" },
         { "label": "Finish", "value": "Matte" },
         { "label": "Application", "value": "Shower floors, feature walls" },
-        { "label": "Available Colours", "value": "White, Off-White" },
-        { "label": "Available Sizes", "value": "30×30cm sheets" }
-      ],
-      "related": ["textured-blue-bathroom-tile", "textured-white-wall-tile", "patterned-kitchen-floor-tile"]
+        { "label": "Available Colours", "value": "White, Off-White" }
+      ]
     },
     {
       "id": "weatherproof-patio-tile",
@@ -241,8 +216,7 @@
       "description": "A slip-resistant outdoor tile engineered to withstand direct sun, rain, and temperature swings without fading or cracking. A dependable choice for patios, balconies, and outdoor entertaining areas.",
       "images": [
         "assets/images/products/outdoor-tile-01.jpg",
-        "assets/images/products/outdoor-tile-02.jpg",
-        "assets/images/categories/outdoor-tiles.jpg"
+        "assets/images/products/outdoor-tile-02.jpg"
       ],
       "chips": ["40×40cm", "Anti-Slip", "Porcelain", "Outdoor Use"],
       "features": [
@@ -251,15 +225,13 @@
         "Freeze/heat resistant for year-round outdoor use",
         "Low water absorption prevents cracking over time"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "40 × 40 cm" },
         { "label": "Material", "value": "Porcelain" },
         { "label": "Finish", "value": "Anti-Slip Textured" },
         { "label": "Application", "value": "Patios, balconies, outdoor entertaining areas" },
-        { "label": "Available Colours", "value": "Grey, Sand, Charcoal" },
-        { "label": "Available Sizes", "value": "40×40cm, 60×60cm" }
-      ],
-      "related": ["stone-look-outdoor-tile", "grey-interlocking-paving-block", "matte-grey-floor-tile"]
+        { "label": "Available Colours", "value": "Grey, Sand, Charcoal" }
+      ]
     },
     {
       "id": "stone-look-outdoor-tile",
@@ -270,8 +242,7 @@
       "description": "A porcelain tile that mimics the look of natural stone without the sealing and staining maintenance real stone requires. A durable option for compounds, garden paths, and outdoor seating areas.",
       "images": [
         "assets/images/products/outdoor-tile-02.jpg",
-        "assets/images/products/outdoor-tile-01.jpg",
-        "assets/images/categories/outdoor-tiles.jpg"
+        "assets/images/products/outdoor-tile-01.jpg"
       ],
       "chips": ["60×60cm", "Stone-Look", "Porcelain", "Outdoor Use"],
       "features": [
@@ -280,15 +251,13 @@
         "Consistent veining across full-order batches",
         "Suitable for compounds, paths, and outdoor seating areas"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "60 × 60 cm" },
         { "label": "Material", "value": "Porcelain" },
         { "label": "Finish", "value": "Textured Stone-Look" },
         { "label": "Application", "value": "Compounds, garden paths, outdoor seating areas" },
-        { "label": "Available Colours", "value": "Grey Stone, Sand Stone" },
-        { "label": "Available Sizes", "value": "60×60cm" }
-      ],
-      "related": ["weatherproof-patio-tile", "terracotta-interlocking-stone", "polished-beige-floor-tile"]
+        { "label": "Available Colours", "value": "Grey Stone, Sand Stone" }
+      ]
     },
     {
       "id": "moroccan-pattern-decorative-tile",
@@ -298,9 +267,7 @@
       "shortDescription": "A bold accent tile for feature walls, borders and statement corners.",
       "description": "A bold, Moroccan-inspired patterned tile designed to be used sparingly as an accent — think a feature wall, a stair riser border, or a statement kitchen corner rather than full-room coverage.",
       "images": [
-        "assets/images/products/decorative-tile-01.jpg",
-        "assets/images/categories/kitchen-tiles.jpg",
-        "assets/images/categories/wall-tiles.jpg"
+        "assets/images/products/decorative-tile-01.jpg"
       ],
       "chips": ["15×15cm", "Matte Finish", "Ceramic", "Accent Tile"],
       "features": [
@@ -309,15 +276,13 @@
         "Ideal for stair risers, borders, and feature corners",
         "Pairs well with plain neutral tiles around it"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "15 × 15 cm" },
         { "label": "Material", "value": "Ceramic" },
         { "label": "Finish", "value": "Matte" },
         { "label": "Application", "value": "Feature walls, stair risers, accent borders" },
-        { "label": "Available Colours", "value": "Blue/White, Terracotta/Cream" },
-        { "label": "Available Sizes", "value": "15×15cm" }
-      ],
-      "related": ["textured-white-wall-tile", "patterned-kitchen-floor-tile", "terracotta-interlocking-stone"]
+        { "label": "Available Colours", "value": "Blue/White, Terracotta/Cream" }
+      ]
     },
     {
       "id": "grey-interlocking-paving-block",
@@ -327,9 +292,7 @@
       "shortDescription": "Load-bearing paving blocks for driveways and vehicle-access compounds.",
       "description": "A load-bearing interlocking paving block engineered for driveways and vehicle-access compounds. Its interlocking edges distribute weight evenly, resisting shifting and cracking under regular vehicle traffic.",
       "images": [
-        "assets/images/products/paving-block-01.jpg",
-        "assets/images/categories/outdoor-tiles.jpg",
-        "assets/images/categories/paving-blocks.jpg"
+        "assets/images/products/paving-block-01.jpg"
       ],
       "chips": ["Standard Size", "Load-Bearing", "Concrete", "Vehicle Access"],
       "features": [
@@ -338,15 +301,13 @@
         "Textured surface improves grip in wet weather",
         "Simple to replace individual blocks if needed"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "Standard interlocking unit" },
         { "label": "Material", "value": "High-strength Concrete" },
         { "label": "Finish", "value": "Textured" },
         { "label": "Application", "value": "Driveways, vehicle-access compounds" },
-        { "label": "Available Colours", "value": "Grey, Charcoal" },
-        { "label": "Available Sizes", "value": "Standard interlocking unit" }
-      ],
-      "related": ["terracotta-interlocking-stone", "weatherproof-patio-tile", "stone-look-outdoor-tile"]
+        { "label": "Available Colours", "value": "Grey, Charcoal" }
+      ]
     },
     {
       "id": "terracotta-interlocking-stone",
@@ -356,9 +317,7 @@
       "shortDescription": "A warm-toned paving option for walkways, gardens and compound borders.",
       "description": "A warm terracotta-toned interlocking stone suited to lighter foot-traffic areas — walkways, garden paths, and compound borders — where a softer, warmer tone is preferred over standard grey paving.",
       "images": [
-        "assets/images/products/interlocking-stone-01.jpg",
-        "assets/images/categories/paving-blocks.jpg",
-        "assets/images/categories/outdoor-tiles.jpg"
+        "assets/images/products/interlocking-stone-01.jpg"
       ],
       "chips": ["Standard Size", "Foot Traffic", "Concrete", "Garden & Walkway"],
       "features": [
@@ -367,15 +326,13 @@
         "Durable concrete body built for foot-traffic areas",
         "Weather-resistant colour that holds up over time"
       ],
+      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
       "specifications": [
-        { "label": "Size", "value": "Standard interlocking unit" },
         { "label": "Material", "value": "Concrete" },
         { "label": "Finish", "value": "Textured" },
         { "label": "Application", "value": "Walkways, garden paths, compound borders" },
-        { "label": "Available Colours", "value": "Terracotta, Sand" },
-        { "label": "Available Sizes", "value": "Standard interlocking unit" }
-      ],
-      "related": ["grey-interlocking-paving-block", "stone-look-outdoor-tile", "moroccan-pattern-decorative-tile"]
+        { "label": "Available Colours", "value": "Terracotta, Sand" }
+      ]
     }
   ]
 }
