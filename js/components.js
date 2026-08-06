@@ -32,7 +32,7 @@ function createProductCard(product) {
                     </a>
 
                     <a
-                        href="https://wa.me/2348000000000?text=${encodeURIComponent(
+                        href="https://wa.me/2347032417780?text=${encodeURIComponent(
                             `Hi, I'm interested in the ${product.name}`
                         )}"
                         class="btn btn-primary btn-sm"

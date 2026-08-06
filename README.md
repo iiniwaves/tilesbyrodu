@@ -54,7 +54,7 @@ Product links follow the pattern `product.html?product=matte-grey-floor-tile` �
 
 ## Things to swap in before launch
 
-1. **WhatsApp number** — currently a placeholder `https://wa.me/2348000000000`, used in static markup (nav, hero, CTA banners, floating button) and generated dynamically inside `createProductCard` and `product.js`. Find-and-replace `2348000000000` across the `.html` and `.js` files with the real number.
+1. **WhatsApp number** — set to `+2347032417780`, used in static markup (nav, hero, CTA banners, floating button) and generated dynamically inside `createProductCard` and `product.js`. Change `2347032417780` across the `.html` and `.js` files if you need to update it.
 2. **Images** — every image in `assets/images/` is a labeled placeholder. Replace each file with a real photo of the same name and matching aspect ratio and the site picks it up automatically — including every image path referenced inside `data/products.json`.
 3. **Logo** — `assets/images/logo.png`, used in the header and footer.
 4. **Contact details** — email, address and business hours are placeholders in `contact.html` and the footer of every page.

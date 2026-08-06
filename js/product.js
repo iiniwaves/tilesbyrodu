@@ -241,7 +241,7 @@ function renderWhatsappButton(product) {
         `Hi, I'm interested in the ${product.name}. Could you please provide more information?`;
 
     button.href =
-        `https://wa.me/2348000000000?text=${encodeURIComponent(message)}`;
+        `https://wa.me/2347032417780?text=${encodeURIComponent(message)}`;
 
 }
 
