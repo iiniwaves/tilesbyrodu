@@ -268,78 +268,471 @@
       ]
     },
     {
-      "id": "moroccan-pattern-decorative-tile",
+      "id": "60x120-porcelain-floor-tile",
       "featured": false,
-      "category": "decorative-tiles",
-      "name": "Moroccan Pattern Decorative Tile",
-      "shortDescription": "A bold accent tile for feature walls, borders and statement corners.",
-      "description": "A bold, Moroccan-inspired patterned tile designed to be used sparingly as an accent — think a feature wall, a stair riser border, or a statement kitchen corner rather than full-room coverage.",
+      "category": "floor-tiles",
+      "name": "60x120 Porcelain Floor Tile",
+      "shortDescription": "Large-format porcelain floor tiles with 10mm thickness, offering durability and design flexibility for living rooms and open-plan spaces.",
+      "description": "The 60x120 Porcelain Floor Tile by Goodwill Ceramic is a large-format porcelain tile designed for interior floors, particularly sitting rooms and open-plan living spaces. With a 10mm thickness and low water absorption, it delivers excellent durability, abrasion resistance, and frost resistance. Its porcelain construction ensures acid resistance, antibacterial performance, and long-lasting beauty with minimal maintenance.",
       "images": [
-        "assets/images/products/decorative-tile-01.jpg"
+        "assets/images/products/60x120 Porcelain Floor Tile.jpg",
+        "assets/images/products/60x120 Porcelain Floor Tile.jpg"
       ],
-      "chips": ["15×15cm", "Matte Finish", "Ceramic", "Accent Tile"],
+      "chips": ["60×120cm", "Porcelain", "Floor Tile", "Interior"],
       "features": [
-        "Bold repeating pattern designed for accent use",
-        "Matte finish keeps colours rich rather than reflective",
-        "Ideal for stair risers, borders, and feature corners",
-        "Pairs well with plain neutral tiles around it"
+        "Large-format porcelain construction",
+        "Acid and abrasion resistant",
+        "Low water absorption",
+        "Antibacterial and frost resistant"
       ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
+      "sizes": ["60×120cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Thickness", "value": "10mm" },
+        { "label": "Application", "value": "Sitting rooms, living rooms, open-plan floors" },
+        { "label": "Pieces Per Carton", "value": "2" }
+      ]
+    },
+    {
+      "id": "60x60-porcelain-floor-tile",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "60x60 Porcelain Floor Tile",
+      "shortDescription": "Standard-format porcelain floor tiles with 9mm thickness, suitable for sitting rooms and residential interiors.",
+      "description": "The 60x60 Porcelain Floor Tile by Goodwill Ceramic is a versatile porcelain tile designed for interior floors in sitting rooms and residential spaces. With a 9mm thickness and high flexural strength, it offers excellent durability, wear resistance, and frost resistance. Its porcelain body provides low water absorption, acid resistance, and antibacterial performance for long-lasting, low-maintenance flooring.",
+      "images": [
+        "assets/images/products/60x60 Porcelain Floor Tile.jpg",
+        "assets/images/products/60x60 Porcelain Floor Tile.jpg"
+      ],
+      "chips": ["60×60cm", "Porcelain", "Floor Tile", "Interior"],
+      "features": [
+        "Standard-format porcelain tile",
+        "High flexural strength",
+        "Wear and acid resistant",
+        "Low water absorption"
+      ],
+      "sizes": ["60×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Thickness", "value": "9mm" },
+        { "label": "Application", "value": "Sitting rooms, living rooms, residential floors" },
+        { "label": "Pieces Per Carton", "value": "4" }
+      ]
+    },
+    {
+      "id": "80x80-porcelain-floor-tile",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "80x80 Porcelain Floor Tile",
+      "shortDescription": "Extra-large square porcelain floor tiles with 10mm thickness for spacious, modern interiors.",
+      "description": "The 80x80 Porcelain Floor Tile by Goodwill Ceramic is an extra-large square porcelain tile designed for interior floors in sitting rooms and spacious living areas. With a 10mm thickness and premium porcelain construction, it delivers high flexural strength, abrasion resistance, and frost resistance. Its large format reduces grout lines for a clean, contemporary look with exceptional durability.",
+      "images": [
+        "assets/images/products/80x80 Porcelain Floor Tile.jpg",
+        "assets/images/products/80x80 Porcelain Floor Tile.jpg"
+      ],
+      "chips": ["80×80cm", "Porcelain", "Floor Tile", "Interior"],
+      "features": [
+        "Extra-large square format",
+        "High flexural strength",
+        "Abrasion and frost resistant",
+        "Reduces grout lines for a clean look"
+      ],
+      "sizes": ["80×80cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Thickness", "value": "10mm" },
+        { "label": "Application", "value": "Sitting rooms, living rooms, spacious interiors" },
+        { "label": "Pieces Per Carton", "value": "3" }
+      ]
+    },
+    {
+      "id": "40x40-porcelain-floor-tile",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "40x40 Porcelain Floor Tile",
+      "shortDescription": "Compact porcelain floor tiles with non-slip surface, ideal for interior residential and commercial spaces.",
+      "description": "The 40x40 Porcelain Floor Tile by Goodwill Ceramic is a compact porcelain tile designed for interior floors in residential and commercial spaces. With a 9mm thickness and non-slip surface, it offers excellent safety, wear resistance, and acid resistance. Its porcelain construction ensures low water absorption, antibacterial performance, and long-lasting durability with easy maintenance.",
+      "images": [
+        "assets/images/products/40x40 Porcelain Floor Tile.jpg",
+        "assets/images/products/40x40 Porcelain Floor Tile.jpg"
+      ],
+      "chips": ["40×40cm", "Porcelain", "Floor Tile", "Non-Slip"],
+      "features": [
+        "Compact format with non-slip surface",
+        "Acid and wear resistant",
+        "Low water absorption",
+        "Antibacterial porcelain body"
+      ],
+      "sizes": ["40×40cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Thickness", "value": "9mm" },
+        { "label": "Application", "value": "Interior floors, residential and commercial spaces" },
+        { "label": "Pieces Per Carton", "value": "6" }
+      ]
+    },
+    {
+      "id": "30x60-granite-floor-tile",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "30x60 Granite Floor Tile",
+      "shortDescription": "Granite-look floor tiles with 11mm thickness, suitable for both interior and exterior applications.",
+      "description": "The 30x60 Granite Floor Tile by Goodwill Ceramic is a marble-category tile with a granite-inspired finish, designed for both interior and exterior floors. With an 11mm thickness and premium construction, it offers high flexural strength, abrasion resistance, and frost resistance. Its versatile design suits driveways, patios, living rooms, and commercial spaces while delivering the natural beauty of granite with porcelain durability.",
+      "images": [
+        "assets/images/products/30x60 Granite Floor Tile.jpg",
+        "assets/images/products/30x60 Granite Floor Tile.jpg"
+      ],
+      "chips": ["30×60cm", "Granite Look", "Floor Tile", "Indoor & Outdoor"],
+      "features": [
+        "Granite-inspired appearance",
+        "Suitable for indoor and outdoor use",
+        "High flexural strength",
+        "Frost and abrasion resistant"
+      ],
+      "sizes": ["30×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Marble" },
+        { "label": "Thickness", "value": "11mm" },
+        { "label": "Application", "value": "Interior and exterior floors" },
+        { "label": "Pieces Per Carton", "value": "3" }
+      ]
+    },
+    {
+      "id": "25x50-interior-ceramic-wall-tile",
+      "featured": false,
+      "category": "wall-tiles",
+      "name": "25x50 Interior Ceramic Wall Tile",
+      "shortDescription": "Rectangular ceramic wall tiles with 8mm thickness for bright, modern interior walls.",
+      "description": "The 25x50 Interior Ceramic Wall Tile by Goodwill Ceramic is a rectangular ceramic tile designed for interior walls in living rooms, bathrooms, and kitchens. With an 8mm thickness and ceramic construction, it offers acid resistance, wear resistance, and antibacterial performance. Its rectangular format creates a clean, contemporary look on interior walls with easy maintenance and lasting durability.",
+      "images": [
+        "assets/images/products/25x50 Interior Ceramic Wall Tile.jpg",
+        "assets/images/products/25x50 Interior Ceramic Wall Tile.jpg"
+      ],
+      "chips": ["25×50cm", "Ceramic", "Wall Tile", "Interior"],
+      "features": [
+        "Rectangular ceramic format",
+        "Acid and wear resistant",
+        "Antibacterial surface",
+        "Easy to clean and maintain"
+      ],
+      "sizes": ["25×50cm"],
       "specifications": [
         { "label": "Material", "value": "Ceramic" },
-        { "label": "Finish", "value": "Matte" },
-        { "label": "Application", "value": "Feature walls, stair risers, accent borders" },
-        { "label": "Available Colours", "value": "Blue/White, Terracotta/Cream" }
+        { "label": "Thickness", "value": "8mm" },
+        { "label": "Application", "value": "Interior walls, bathrooms, kitchens" },
+        { "label": "Pieces Per Carton", "value": "10" }
       ]
     },
     {
-      "id": "grey-interlocking-paving-block",
+      "id": "25x50-exterior-ceramic-crack-wall-tile",
       "featured": false,
-      "category": "paving-blocks",
-      "name": "Grey Interlocking Paving Block",
-      "shortDescription": "Load-bearing paving blocks for driveways and vehicle-access compounds.",
-      "description": "A load-bearing interlocking paving block engineered for driveways and vehicle-access compounds. Its interlocking edges distribute weight evenly, resisting shifting and cracking under regular vehicle traffic.",
+      "category": "wall-tiles",
+      "name": "25x50 Exterior Ceramic Crack Wall Tile",
+      "shortDescription": "Exterior ceramic wall tiles with a distinctive crack finish, built to withstand outdoor conditions.",
+      "description": "The 25x50 Exterior Ceramic Crack Wall Tile by Goodwill Ceramic is a ceramic wall tile with a distinctive crack finish designed for exterior applications. With a 9mm thickness and durable ceramic construction, it offers acid resistance, wear resistance, and frost resistance. Its crack-textured surface adds visual interest to building facades, compound walls, and outdoor features while withstanding harsh weather conditions.",
       "images": [
-        "assets/images/products/paving-block-01.jpg"
+        "assets/images/products/25x50 Exterior Ceramic Crack Wall Tile.jpg",
+        "assets/images/products/25x50 Exterior Ceramic Crack Wall Tile.jpg"
       ],
-      "chips": ["Standard Size", "Load-Bearing", "Concrete", "Vehicle Access"],
+      "chips": ["25×50cm", "Ceramic", "Wall Tile", "Exterior"],
       "features": [
-        "Interlocking edges distribute vehicle weight evenly",
-        "High-strength concrete resists cracking under load",
-        "Textured surface improves grip in wet weather",
-        "Simple to replace individual blocks if needed"
+        "Distinctive crack-textured finish",
+        "Designed for exterior use",
+        "Frost and acid resistant",
+        "Durable ceramic construction"
       ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
+      "sizes": ["25×50cm"],
       "specifications": [
-        { "label": "Material", "value": "High-strength Concrete" },
-        { "label": "Finish", "value": "Textured" },
-        { "label": "Application", "value": "Driveways, vehicle-access compounds" },
-        { "label": "Available Colours", "value": "Grey, Charcoal" }
+        { "label": "Material", "value": "Ceramic" },
+        { "label": "Thickness", "value": "9mm" },
+        { "label": "Application", "value": "Exterior walls, building facades, compound walls" },
+        { "label": "Pieces Per Carton", "value": "10" }
       ]
     },
     {
-      "id": "terracotta-interlocking-stone",
+      "id": "25x40-swimming-pool-tile",
       "featured": false,
-      "category": "interlocking-stones",
-      "name": "Terracotta Interlocking Stone",
-      "shortDescription": "A warm-toned paving option for walkways, gardens and compound borders.",
-      "description": "A warm terracotta-toned interlocking stone suited to lighter foot-traffic areas — walkways, garden paths, and compound borders — where a softer, warmer tone is preferred over standard grey paving.",
+      "category": "bathroom-tiles",
+      "name": "25x40 Swimming Pool Tile",
+      "shortDescription": "Blue ceramic swimming pool tiles with 7mm thickness, also suitable for bathrooms and water features.",
+      "description": "The 25x40 Swimming Pool Tile by Goodwill Ceramic is a blue ceramic wall tile designed for swimming pools, water tap areas, bathrooms, and toilets. With a 7mm thickness and non-slip surface, it offers excellent safety, acid resistance, and low water absorption. Its vibrant blue color and ceramic construction deliver lasting beauty and performance in wet environments.",
       "images": [
-        "assets/images/products/interlocking-stone-01.jpg"
+        "assets/images/products/25x40 Swimming Pool Tile.jpg",
+        "assets/images/products/25x40 Swimming Pool Tile.jpg"
       ],
-      "chips": ["Standard Size", "Foot Traffic", "Concrete", "Garden & Walkway"],
+      "chips": ["25×40cm", "Ceramic", "Pool Tile", "Non-Slip"],
       "features": [
-        "Warm terracotta tone suits gardens and walkways",
-        "Interlocking design simplifies installation and repair",
-        "Durable concrete body built for foot-traffic areas",
-        "Weather-resistant colour that holds up over time"
+        "Vibrant blue color",
+        "Non-slip surface for wet areas",
+        "Low water absorption",
+        "Acid and abrasion resistant"
       ],
-      "sizes": ["60×60cm", "60×120cm", "40×40cm", "30×40cm", "30×120cm"],
+      "sizes": ["25×40cm"],
       "specifications": [
-        { "label": "Material", "value": "Concrete" },
-        { "label": "Finish", "value": "Textured" },
-        { "label": "Application", "value": "Walkways, garden paths, compound borders" },
-        { "label": "Available Colours", "value": "Terracotta, Sand" }
+        { "label": "Material", "value": "Ceramic" },
+        { "label": "Thickness", "value": "7mm" },
+        { "label": "Application", "value": "Swimming pools, bathrooms, water features" },
+        { "label": "Pieces Per Carton", "value": "15" }
+      ]
+    },
+    {
+      "id": "30x30-ceramic-floor-tile",
+      "featured": false,
+      "category": "kitchen-tiles",
+      "name": "30x30 Ceramic Floor Tile",
+      "shortDescription": "Compact ceramic floor tiles with non-slip surface, ideal for kitchens, bathrooms, and high-moisture areas.",
+      "description": "The 30x30 Ceramic Floor Tile by Goodwill Ceramic is a compact ceramic tile designed for interior floors in kitchens and bathrooms. With an 8mm thickness and non-slip surface, it provides excellent safety in wet areas. Its ceramic construction offers acid resistance, wear resistance, and antibacterial performance, making it a practical and durable choice for high-moisture environments.",
+      "images": [
+        "assets/images/products/30x30 Ceramic Floor Tile.jpg",
+        "assets/images/products/30x30 Ceramic Floor Tile.jpg"
+      ],
+      "chips": ["30×30cm", "Ceramic", "Floor Tile", "Non-Slip"],
+      "features": [
+        "Compact format with non-slip surface",
+        "Ideal for kitchens and bathrooms",
+        "Acid and wear resistant",
+        "Antibacterial ceramic body"
+      ],
+      "sizes": ["30×30cm"],
+      "specifications": [
+        { "label": "Material", "value": "Ceramic" },
+        { "label": "Thickness", "value": "8mm" },
+        { "label": "Application", "value": "Kitchens, bathrooms, high-moisture areas" },
+        { "label": "Pieces Per Carton", "value": "17" }
+      ]
+    },
+    {
+      "id": "tonirello",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "Tonirello",
+      "shortDescription": "Concrete-look porcelain floor tiles with a matt finish, part of CDK's Cement & Stone collection.",
+      "description": "Tonirello by CDK Industries is a concrete-look porcelain floor tile from the Cement & Stone collection. With a 60x60cm format and matt finish, it captures the industrial elegance of raw concrete while delivering the durability of fully vitrified porcelain. Stain resistant, scratch resistant, and fade resistant, Tonirello is ideal for modern living rooms, commercial spaces, and contemporary interiors seeking an understated, urban aesthetic.",
+      "images": [
+        "assets/images/products/Tonirello.jpg",
+        "assets/images/products/Tonirello.jpg"
+      ],
+      "chips": ["60×60cm", "Matt Finish", "Porcelain", "Concrete Look"],
+      "features": [
+        "Concrete-look porcelain design",
+        "Fully vitrified body",
+        "Stain and scratch resistant",
+        "Suitable for household and light commercial use"
+      ],
+      "sizes": ["60×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matt" },
+        { "label": "Application", "value": "Living rooms, commercial spaces, contemporary interiors" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "mica-sand",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "Mica Sand",
+      "shortDescription": "Large-format cement-look porcelain tiles with a sandy tone and matt finish.",
+      "description": "Mica Sand by CDK Industries is a large-format porcelain floor tile from the Cement & Stone collection. With a 60x120cm format and warm sandy tone, it combines the natural beauty of cement and stone with the performance of fully vitrified porcelain. Its matt finish provides a subtle, non-reflective surface that is stain resistant, scratch resistant, and fade resistant, making it ideal for open-plan living areas and commercial spaces.",
+      "images": [
+        "assets/images/products/Mica Sand.jpg",
+        "assets/images/products/Mica Sand.jpg"
+      ],
+      "chips": ["60×120cm", "Matt Finish", "Porcelain", "Cement Look"],
+      "features": [
+        "Large-format cement-look design",
+        "Warm sandy tone",
+        "Fully vitrified porcelain body",
+        "Stain, scratch, and fade resistant"
+      ],
+      "sizes": ["60×120cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matt" },
+        { "label": "Application", "value": "Open-plan living areas, commercial spaces" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "pinewood-lbr",
+      "featured": false,
+      "category": "floor-tiles",
+      "name": "Pinewood LBR",
+      "shortDescription": "Wood-look porcelain floor tiles with natural grain patterns in a light brown tone.",
+      "description": "Pinewood LBR by CDK Industries is a wood-look porcelain floor tile from the Wood collection. With a 30x120cm format and light brown wood grain, it captures the natural warmth and organic beauty of timber while delivering the durability of high-performance porcelain. Stain resistant, crazing resistant, and frost resistant, Pinewood LBR is suitable for living rooms, bathrooms, and interiors where the look of wood is desired without the maintenance.",
+      "images": [
+        "assets/images/products/Pinewood LBR.jpg",
+        "assets/images/products/Pinewood LBR.jpg"
+      ],
+      "chips": ["30×120cm", "Matt Finish", "Porcelain", "Wood Look"],
+      "features": [
+        "Natural wood grain appearance",
+        "Light brown tone",
+        "High-performance porcelain body",
+        "Suitable for floors and walls"
+      ],
+      "sizes": ["30×120cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matt" },
+        { "label": "Application", "value": "Living rooms, bathrooms, interiors" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "menandro",
+      "featured": true,
+      "category": "floor-tiles",
+      "name": "Menandro",
+      "shortDescription": "Premium porcelain tiles with a crystal polish finish from CDK's Chrystal collection.",
+      "description": "Menandro by CDK Industries is a premium porcelain floor tile from the Chrystal collection. With a 60x120cm format and crystal polish finish, it delivers a luminous, reflective surface that brightens interiors with sophistication. Its fully vitrified porcelain body offers exceptional stain resistance, scratch resistance, and fade resistance, making it ideal for luxury living rooms, commercial lobbies, and statement floors.",
+      "images": [
+        "assets/images/products/Menandro.jpg",
+        "assets/images/products/Menandro.jpg"
+      ],
+      "chips": ["60×120cm", "Crystal Polish", "Porcelain", "Luxury"],
+      "features": [
+        "Crystal polish reflective finish",
+        "Large-format porcelain tile",
+        "Fully vitrified body",
+        "Stain, scratch, and fade resistant"
+      ],
+      "sizes": ["60×120cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Crystal Polish" },
+        { "label": "Application", "value": "Luxury living rooms, commercial lobbies, statement floors" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "basel-decor",
+      "featured": false,
+      "category": "wall-tiles",
+      "name": "Basel Decor",
+      "shortDescription": "Glossy decorative porcelain wall tiles from CDK's La Pared collection, designed for feature walls.",
+      "description": "Basel Decor by CDK Industries is a decorative porcelain wall tile from the La Pared collection. With a 30x60cm format and glossy finish, it features designer-inspired textures and patterns that create striking feature walls and accent panels. Its fully vitrified body is stain resistant, scratch resistant, and fade resistant, while the glossy surface adds depth and luminosity to bathrooms, living rooms, and commercial interiors.",
+      "images": [
+        "assets/images/products/Basel Decor.jpg",
+        "assets/images/products/Basel Decor.jpg"
+      ],
+      "chips": ["30×60cm", "Glossy Finish", "Porcelain", "Feature Wall"],
+      "features": [
+        "Designer-inspired decorative patterns",
+        "Glossy luminous finish",
+        "Fully vitrified porcelain body",
+        "Ideal for feature walls and accent panels"
+      ],
+      "sizes": ["30×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Glossy" },
+        { "label": "Application", "value": "Feature walls, bathrooms, living rooms, commercial interiors" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "onyx-azure",
+      "featured": false,
+      "category": "bathroom-tiles",
+      "name": "Onyx Azure",
+      "shortDescription": "Marble-look porcelain tiles with azure tones and a matt finish from CDK's Marble collection.",
+      "description": "Onyx Azure by CDK Industries is a marble-look porcelain tile from the Marble collection. With a 60x60cm format and matt finish, it captures the luxurious veining of natural onyx marble in cool azure tones. Its fully vitrified porcelain body offers frost resistance, scratch resistance, and crazing resistance, making it a durable and elegant choice for bathrooms, wet rooms, and luxury interiors.",
+      "images": [
+        "assets/images/products/Onyx Azure.jpg",
+        "assets/images/products/Onyx Azure.jpg"
+      ],
+      "chips": ["60×60cm", "Matt Finish", "Porcelain", "Marble Look"],
+      "features": [
+        "Marble-inspired onyx design",
+        "Cool azure tones",
+        "Fully vitrified porcelain body",
+        "Frost, scratch, and crazing resistant"
+      ],
+      "sizes": ["60×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Matt" },
+        { "label": "Application", "value": "Bathrooms, wet rooms, luxury interiors" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "celtic-decor-1",
+      "featured": false,
+      "category": "decorative-tiles",
+      "name": "Celtic Decor 1",
+      "shortDescription": "Rustic accent wall tiles with geometric patterns from CDK's Rustic Punch collection.",
+      "description": "Celtic Decor 1 by CDK Industries is a rustic accent wall tile from the Rustic Punch collection. With a 30x60cm format and rustic finish, it features geometric shapes and patterns that capture the warmth of natural stone with premium porcelain resilience. Its fully vitrified body is stain resistant, scratch resistant, and fade resistant, making it ideal for feature walls, stair risers, and decorative accents in residential and commercial spaces.",
+      "images": [
+        "assets/images/products/Celtic Decor 1.jpg",
+        "assets/images/products/Celtic Decor 1.jpg"
+      ],
+      "chips": ["30×60cm", "Rustic Finish", "Porcelain", "Accent Tile"],
+      "features": [
+        "Geometric rustic patterns",
+        "Natural stone-inspired warmth",
+        "Fully vitrified porcelain body",
+        "Ideal for feature walls and decorative accents"
+      ],
+      "sizes": ["30×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Rustic" },
+        { "label": "Application", "value": "Feature walls, stair risers, decorative accents" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "carara-oro",
+      "featured": false,
+      "category": "kitchen-tiles",
+      "name": "Carara Oro",
+      "shortDescription": "Marble-look porcelain tiles with gold veining and a polished finish.",
+      "description": "Carara Oro by CDK Industries is a marble-look porcelain tile from the Cement & Stone collection. With a 60x60cm format and polished finish, it features elegant gold veining inspired by premium Carrara marble. Its fully vitrified porcelain body offers stain resistance, scratch resistance, and fade resistance, making it a luxurious and durable choice for kitchen backsplashes, countertops, and feature walls.",
+      "images": [
+        "assets/images/products/Carara Oro.jpg",
+        "assets/images/products/Carara Oro.jpg"
+      ],
+      "chips": ["60×60cm", "Polished Finish", "Porcelain", "Marble Look"],
+      "features": [
+        "Elegant gold-veined marble design",
+        "Polished reflective finish",
+        "Fully vitrified porcelain body",
+        "Stain, scratch, and fade resistant"
+      ],
+      "sizes": ["60×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Polish" },
+        { "label": "Application", "value": "Kitchen backsplashes, countertops, feature walls" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
+      ]
+    },
+    {
+      "id": "brilliat-white",
+      "featured": false,
+      "category": "wall-tiles",
+      "name": "Brilliat White",
+      "shortDescription": "Pure white porcelain tiles with a polished finish from CDK's Uni collection.",
+      "description": "Brilliat White by CDK Industries is a solid-colour porcelain tile from the Uni collection. With a 60x60cm format and polished finish, it delivers a clean, bright white surface that enhances light and space in any interior. Its fully vitrified porcelain body is stain resistant, scratch resistant, crazing resistant, and non-toxic, making it a versatile and hygienic choice for walls, floors, bathrooms, and commercial spaces.",
+      "images": [
+        "assets/images/products/Brilliat White.jpg",
+        "assets/images/products/Brilliat White.jpg"
+      ],
+      "chips": ["60×60cm", "Polished Finish", "Porcelain", "Uni Colour"],
+      "features": [
+        "Pure bright white surface",
+        "Polished finish enhances light",
+        "Fully vitrified porcelain body",
+        "Non-toxic and easy to maintain"
+      ],
+      "sizes": ["60×60cm"],
+      "specifications": [
+        { "label": "Material", "value": "Porcelain" },
+        { "label": "Finish", "value": "Polish" },
+        { "label": "Application", "value": "Walls, floors, bathrooms, commercial spaces" },
+        { "label": "Water Absorption", "value": "≤ 0.5%" }
       ]
     }
   ]

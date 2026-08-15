@@ -6,33 +6,48 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     grid.innerHTML = renderSkeletonCards(6);
 
-    let products = await getProducts();
+    try {
 
-    renderProducts(products);
+        let products = await getProducts();
 
-    const filters = document.querySelectorAll(".filter-pill");
+        renderProducts(products);
 
-    filters.forEach(button => {
+        const filters = document.querySelectorAll(".filter-pill");
 
-        button.addEventListener("click", async () => {
+        filters.forEach(button => {
 
-            filters.forEach(btn =>
-                btn.classList.remove("active")
-            );
+            button.addEventListener("click", async () => {
 
-            button.classList.add("active");
+                filters.forEach(btn =>
+                    btn.classList.remove("active")
+                );
 
-            const category = button.dataset.filter;
+                button.classList.add("active");
 
-            grid.innerHTML = renderSkeletonCards(6);
+                const category = button.dataset.filter;
 
-            products = await getProductsByCategory(category);
+                grid.innerHTML = renderSkeletonCards(6);
 
-            renderProducts(products);
+                const filtered = await getProductsByCategory(category);
+
+                renderProducts(filtered);
+
+            });
 
         });
 
-    });
+    } catch (err) {
+
+        console.error("Failed to load products:", err);
+
+        grid.innerHTML = `
+            <div class="products-error" style="grid-column: 1 / -1; text-align: center; padding: 40px 20px;">
+                <p style="font-size: 1.1rem; margin-bottom: 8px;"><strong>Unable to load products.</strong></p>
+                <p style="color: #666;">This page needs to be served over HTTP. Use a local server (e.g. Live Server in VS Code) instead of opening the file directly.</p>
+            </div>
+        `;
+
+    }
 
     function renderProducts(products) {
 
