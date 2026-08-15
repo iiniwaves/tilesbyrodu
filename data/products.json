@@ -581,7 +581,7 @@
     },
     {
       "id": "menandro",
-      "featured": true,
+      "featured": false,
       "category": "floor-tiles",
       "name": "Menandro",
       "shortDescription": "Premium porcelain tiles with a crystal polish finish from CDK's Chrystal collection.",
